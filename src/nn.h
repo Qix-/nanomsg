@@ -31,6 +31,7 @@ extern "C" {
 
 #include <errno.h>
 #include <stddef.h>
+#include <stdarg.h>
 
 /*  Handle DSO symbol visibility                                             */
 #if defined NN_NO_EXPORTS
